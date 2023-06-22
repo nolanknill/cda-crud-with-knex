@@ -11,7 +11,7 @@ const postRoutes = require('./routes/post-routes');
 
 // all users routes
 app.use('/users', userRoutes);
-app.use('/posts', postsRoutes);
+app.use('/posts', postRoutes);
 
 
 app.listen(PORT, () => {
